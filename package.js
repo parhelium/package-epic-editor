@@ -16,5 +16,4 @@ Package.onUse(function(api) {
   api.add_files(path.join('v0.2.2','themes','preview','github.css'), where);
 
   api.export('EpicEditor', 'client');
-
 });

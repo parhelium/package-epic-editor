@@ -1843,7 +1843,6 @@
   // Used to store information to be shared across editors
   EpicEditor._data = {};
 
-  window.EpicEditor = EpicEditor;
 })(window);
 
 /**
@@ -2893,5 +2892,4 @@ if (typeof module !== 'undefined') {
 } else {
   this.marked = marked;
 }
-
 
