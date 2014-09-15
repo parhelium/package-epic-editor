@@ -9,6 +9,7 @@ Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.0');
   var where = ['client'];
   var path = Npm.require('path');
+  api.use("parhelium:marked");
 
   api.add_files(path.join('v0.2.2','js','epiceditor.js'), where);
   api.add_files(path.join('v0.2.2','themes','base','epiceditor.css'), where);

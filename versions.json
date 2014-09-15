@@ -5,6 +5,10 @@
       "1.1.0"
     ],
     [
+      "parhelium:marked",
+      "0.3.2"
+    ],
+    [
       "underscore",
       "1.0.0"
     ]
