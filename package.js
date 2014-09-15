@@ -1,7 +1,7 @@
 Package.describe({
   summary: "EpicEditor",
   version: "0.2.2",
-  git: " ",
+  git: "https://github.com/parhelium/package-epic-editor",
   name: "parhelium:epic-editor"
 });
 
